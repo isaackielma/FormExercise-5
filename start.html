@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1> Registration Form </h1>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br>
+    
+    <label for="name">Name and Lastname:</label>
+    <input type="text" id="name" name="name"><br>
+    
+    <label for="dob">Date of birth:</label>
+    <input type="date" id="dob" name="dob"><br>
+    
+    <label for="telephone">Telephone number:</label>
+    <input type="tel" id="telephone" name="telephone"><br>
+    
+    <label for="payment-plan">Payment plan:</label>
+    <select id="payment-plan" name="payment-plan">
+    <option value="free-plan">Free plan</option>
+    <option value="plan-1">Plan 1</option>
+    <option value="plan-2">Plan 2</option>
+    <option value="plan-3">Plan 3</option>
+    </select>
+    <input type="checkbox" id="pro-plan" name="pro-plan" value="pro-plan">
+    <label for="pro-plan">Pro plan</label><br>
+    
+    <label for="cc-number">Credit card number:</label>
+    <input type="text" id="cc-number" name="cc-number"><br>
+    
+    <label for="cvc">CVC:</label>
+    <input type="text" id="cvc" name="cvc"><br>
+    
+    <label for="expiration">Expiration date:</label>
+    <input type="month" id="expiration" name="expiration"><br>
+    
+    <label for="billing-address">Billing address:</label>
+    <input type="text" id="billing-address" name="billing-address"><br>
+    
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
