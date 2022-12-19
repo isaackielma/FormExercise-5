@@ -35,12 +35,15 @@
     <label for="payment-plan">Payment plan:</label>
     <select id="payment-plan" name="payment-plan">
     <option value="free-plan">Free plan</option>
-    <option value="plan-1">Plan 1</option>
-    <option value="plan-2">Plan 2</option>
-    <option value="plan-3">Plan 3</option>
-    </select>
-    <input type="checkbox" id="pro-plan" name="pro-plan" value="pro-plan">
-    <label for="pro-plan">Pro plan</label><br>
+    <optgroup label="Paid Plans">
+      <option value="plan-1">Plan 1: $20</option>
+      <option value="plan-2">Plan 2: $40</option>
+      <option value="plan-3">Plan 3: $60</option>
+    </optgroup>
+    </select> <br>
+
+    <label for="pro">Pro Plan</label>
+    <input type="checkbox" name="pro_plan" value="Pro Plan" />
     
     <label for="cc-number">Credit card number:</label>
     <input type="text" id="cc-number" name="cc-number"><br>
